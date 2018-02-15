@@ -1,0 +1,28 @@
+cd C:\Users\Alaa Hassan\Desktop\AhmedRepo
+git init
+git add file1.txt
+git add file2.txt
+git add file3.txt
+git status
+git commit -m "added files with text from the book"
+git status
+git rm file1.txt
+git status
+git log --oneline
+git reset a09dcdc --hard
+git status
+git commit -m"second commit"
+git remote add origin https://github.com/ahmedhassansaleh/Ahmeds.git
+git push -u origin master
+git branch ReadMe
+git branch -a
+git checkout ReadMe
+git branch -a
+git add README.md
+git status
+git commit -m "added README.md file to ReadMe branch"
+git status
+git checkout master
+git merge ReadMe
+git add AllMycommands.txt
+git commit -m "added AllMycommand file and finished individual task"
